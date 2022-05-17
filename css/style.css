@@ -293,4 +293,44 @@ label {
         position: relative;
         right: 135px;
     }
+
+
+ }
+
+ .menu:hover {
+background-image: linear-gradient(to bottom , red , violet );
+ }
+
+ @keyframes animacion {
+     0% {
+         width: 220px;
+     }
+
+     25% {
+         width: 240px;
+     }
+
+     50% {
+         width: 260px;
+     }
+
+     75% {
+         width: 280px;
+     }
+
+     100% {
+         width: 300px;
+     }
+ }
+
+ .menu {
+     animation-name: animacion;
+
+     animation-iteration-count: infinite;
+
+     animation-timing-function: ease-in;
+
+     animation-duration: 4s;
+
+     animation-delay: 2s;
  }
