@@ -334,3 +334,8 @@ background-image: linear-gradient(to bottom , red , violet );
 
      animation-delay: 2s;
  }
+
+ .table {
+     color: white;
+ }
+
