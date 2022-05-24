@@ -234,6 +234,7 @@ label {
 }
 
 @media screen and (max-width:765px) {
+    
     .elMenuu {
         display: none;
     }
@@ -339,3 +340,13 @@ background-image: linear-gradient(to bottom , red , violet );
      color: white;
  }
 
+footer {
+    background-color: black;
+}
+.strong {
+    color: red;
+}
+
+.navbar-dark {
+    background: black;
+}
