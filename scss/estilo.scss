@@ -1,0 +1,259 @@
+$color-texto: red;
+$background-color: black;
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+h1 {
+    color: $color-texto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: $background-color;
+    border: 5px red solid;
+}
+
+.buzoMuevansee {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 299px;
+    position: relative;
+    left: 200px;
+}
+
+form {
+    color: #fff;
+}
+
+p {
+    color: white;
+}
+
+h3 {
+    color: $color-texto;
+}
+
+main {
+    background-color: $background-color;
+    border: 5px red solid;
+}
+
+h3 {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.letraNaranja {
+    color: orange;
+    text-align: end;
+    text-transform: uppercase;
+
+}
+
+.letraBuzo {
+    color: violet;
+    text-align: start;
+    text-transform: uppercase;
+}
+
+.buzosQuince {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.buzosMuevanse {
+   display: grid;
+   grid-template-columns: 50% 50%;
+  
+}
+
+.buzoNaranja {
+    width: 250px;
+
+}
+
+.buzoVioleta {
+    width: 250px;
+
+}
+
+.preguntaUno {
+    color: $color-texto;
+    text-transform: uppercase;
+}
+
+.cuestionDos {
+    text-align: center;
+}
+
+.mapaUno {
+    display: flex;
+    justify-content: flex-start;
+    color: $color-texto;
+}
+
+.parrafoUno {
+    border: 2px blue dashed;
+    margin: 5px;
+    padding: 5px;
+}
+
+.formularioUno {
+    border: 3px blue dotted;
+    margin: 5px;
+    padding: 5px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+.submitDos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.contactEnvio {
+    background-color: $background-color;
+    border: 5px red solid;
+
+}
+
+.ambulanciaUno {
+    position: relative;
+    right: 70px;
+    margin: 20px 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.divUno {
+    color: $color-texto;
+    text-transform: uppercase;
+
+    position: relative;
+    left: 325px;
+    bottom: 50px;
+
+
+}
+
+.remerasMuevanse {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+
+}
+.remeraAzul {
+    color: orange;
+}
+
+@media screen and (max-width:765px) {
+    
+    .elMenuu {
+        display: none;
+    }
+    .redesUno {
+        display: none;
+    }
+    h4 {
+       display: none;
+    }
+    .buzosQuince{
+        position: relative;
+        right: 135px;
+       width: 100px;
+        display: grid;
+        grid-template-columns: 100%;
+        max-width: 90%;
+        justify-items: flex-start;
+    }
+
+    .buzooDos {
+        display: none;
+    }
+
+    .buzooTres {
+        display: none;
+    }
+
+    .buzosMuevanse {
+        display: grid;
+        grid-template-columns: 100%;
+        position: relative;
+        right: 135px;
+
+    }
+
+    .remeraUno {
+        display: none;
+    }
+
+    .remeraMovete {
+        display: none;
+    }
+    .remerasMuevanse {
+        display: grid;
+        grid-template-columns: 100%;
+        position: relative;
+        right: 135px;
+    }
+
+    .contactoEnvio {
+        position: relative;
+        right: 135px;
+    }
+    .ambulanciaUno {
+        display: grid;
+        grid-template-columns: 100px;
+        position: relative;
+        right: 135px;
+    }
+
+
+ }
+
+
+ .table {
+     color: white;
+ }
+
+footer {
+    background-color: $background-color;
+}
+.strong {
+    color: $color-texto;
+}
