@@ -1,3 +1,16 @@
+.instagram {
+  color: red; }
+
+.twitter {
+  color: blue; }
+
+.redesUno {
+  font-size: 20px; }
+
+.footerUno, .conocenosTres {
+  font-size: 20px;
+  background-color: #07b9ff; }
+
 * {
   margin: 0%;
   padding: 0%; }

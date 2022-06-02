@@ -1,0 +1,20 @@
+
+
+$mapRedes:( instagram:red, twitter:blue);
+
+@each $leerRed, $color in $mapRedes {
+    .#{$leerRed} {
+        color: $color;
+    }
+}
+
+$estilo: (fuenteUno:20px, color: rgb(7, 185, 255));
+
+.redesUno {
+    font-size: map-get($estilo,fuenteUno );
+}
+
+.footerUno{
+    font-size: map-get($estilo,fuenteUno );
+    background-color: map-get($estilo,color );
+}

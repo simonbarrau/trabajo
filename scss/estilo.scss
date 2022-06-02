@@ -1,5 +1,9 @@
+@import "maps";
+@import "extend";
+
 $color-texto: red;
 $background-color: black;
+$mapRedes:( instagram:red, twitter:blue);
 
 
 * {
@@ -257,3 +261,5 @@ footer {
 .strong {
     color: $color-texto;
 }
+
+
