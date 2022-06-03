@@ -11,6 +11,13 @@
   font-size: 20px;
   background-color: #07b9ff; }
 
+.divUno {
+  color: red;
+  text-transform: uppercase;
+  position: relative;
+  left: 325px;
+  bottom: 50px; }
+
 * {
   margin: 0%;
   padding: 0%; }

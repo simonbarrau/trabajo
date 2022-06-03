@@ -1,0 +1,13 @@
+
+@mixin parrafos {
+   
+        color: red;
+        text-transform: uppercase;
+        position: relative;
+        left: 325px;
+        bottom: 50px; 
+}
+
+.divUno {
+    @include parrafos;
+}
