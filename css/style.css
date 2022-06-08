@@ -1,186 +1,238 @@
 .instagram {
-  color: red; }
+  color: red;
+}
 
 .twitter {
-  color: blue; }
+  color: blue;
+}
 
 .redesUno {
-  font-size: 20px; }
-
-.footerUno, .conocenosTres {
   font-size: 20px;
-  background-color: black; }
+}
+
+.footerUno,
+.conocenosTres {
+  font-size: 20px;
+  background-color: black;
+}
 
 .divUno {
   color: red;
   text-transform: uppercase;
   position: relative;
   left: 325px;
-  bottom: 50px; }
+  bottom: 50px;
+}
 
 * {
   margin: 0%;
-  padding: 0%; }
+  padding: 0%;
+}
 
 h1 {
   color: red;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 h2 {
   color: white;
-  text-align: center; }
+  text-align: center;
+}
 
 header {
   background-color: black;
-  border: 5px red solid; }
+  border: 7px  red solid;
+}
 
 .buzoMuevansee {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%; }
+  grid-template-rows: 50% 50%;
+}
 
 a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 img {
   width: 299px;
   position: relative;
-  left: 200px; }
+  left: 200px;
+}
 
 form {
-  color: #fff; }
+  color: #fff;
+}
 
 p {
-  color: white; }
+  color: white;
+}
 
 h3 {
-  color: red; }
+  color: red;
+}
 
 main {
   background-color: black;
-  border: 5px red solid; }
+  border: 5px red solid;
+}
 
 h3 {
   margin: auto;
   display: flex;
   text-align: center;
   flex-flow: row wrap;
-  justify-content: center; }
+  justify-content: center;
+}
+.buzosMil {
+  display:grid;
+  grid-template-rows: auto;
+
+}
 
 .letraNaranja {
   color: orange;
   text-align: end;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .letraBuzo {
   color: violet;
   text-align: start;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .buzosQuince {
   display: grid;
-  grid-template-columns: 50% 50%; }
+  grid-template-columns: 50% 50%;
+}
 
 .buzosMuevanse {
   display: grid;
-  grid-template-columns: 50% 50%; }
+  grid-template-columns: 50% 50%;
+}
 
 .buzoNaranja {
-  width: 250px; }
+  width: 250px;
+}
 
 .buzoVioleta {
-  width: 250px; }
+  width: 250px;
+}
 
 .preguntaUno {
   color: red;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .cuestionDos {
-  text-align: center; }
+  text-align: center;
+}
 
 .mapaUno {
   display: flex;
   justify-content: flex-start;
-  color: red; }
+  color: red;
+}
 
 .parrafoUno {
- 
-  
-  padding: 5px; }
+
+
+  padding: 5px;
+}
 
 .formularioUno {
-  border: 3px blue solid;
+  border: 3px red solid;
   margin: 5px;
-  padding: 5px; }
+  padding: 5px;
+}
 
 input {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 label {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .submitDos {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .contactEnvio {
   background-color: black;
   border: 5px red solid;
   display: grid;
-  grid-template-columns: 50% 50%; }
+  grid-template-columns: 50% 50%;
+}
 
-  .moverLetras {
-    position: relative;
-    right: 350px;
-    top: 40px;
-  }
+.moverLetras {
+  position: relative;
+  right: 350px;
+  top: 40px;
+}
 
 .ambulanciaUno {
-  
+
   margin: 20px 20px;
   width: 100px;
-  height: 100px; }
+  height: 100px;
+}
 
-  .creditoUno {
-    position: relative;
-    left: 300px;
-    bottom: 80px;
-  }
+.creditoUno {
+  position: relative;
+  left: 300px;
+  bottom: 80px;
+}
 
-  .iconoTarjeta {
-  
-  
-    width: 100px;
-    height: 100px;
-  }
+.iconoTarjeta {
+
+
+  width: 100px;
+  height: 100px;
+}
+
 .divUno {
   color: red;
   text-transform: uppercase;
   position: relative;
   left: 10px;
   top: 10px;
- }
+}
 
 .remerasMuevanse {
   display: grid;
-  grid-template-columns: 50% 50%; }
+  grid-template-columns: 50% 50%;
+}
 
 .remeraAzul {
-  color: orange; }
+  color: orange;
+}
 
 @media screen and (max-width: 765px) {
- 
+
+  .contactEnvio {
+    display: none;
+  }
+
   .elMenuu {
-    display: none; }
+    display: none;
+  }
+
   .redesUno {
-    display: none; }
+    display: none;
+  }
+
   h4 {
-    display: none; }
+    display: none;
+  }
+
   .buzosQuince {
     position: relative;
     right: 135px;
@@ -188,39 +240,81 @@ label {
     display: grid;
     grid-template-columns: 100%;
     max-width: 90%;
-    justify-items: flex-start; }
+    justify-items: flex-start;
+  }
+
   .buzooDos {
-    display: none; }
+    display: none;
+  }
+
   .buzooTres {
-    display: none; }
+    display: none;
+  }
+
   .buzosMuevanse {
     display: grid;
     grid-template-columns: 100%;
     position: relative;
-    right: 135px; }
+    right: 135px;
+  }
+
   .remeraUno {
-    display: none; }
+    display: none;
+  }
+
   .remeraMovete {
-    display: none; }
+    display: none;
+  }
+
   .remerasMuevanse {
     display: grid;
     grid-template-columns: 100%;
     position: relative;
-    right: 135px; }
+    right: 135px;
+  }
+
   .contactoEnvio {
     position: relative;
-    right: 135px; }
+    right: 135px;
+  }
+
   .ambulanciaUno {
     display: grid;
     grid-template-columns: 100px;
     position: relative;
-    right: 135px; } }
+    right: 135px;
+  }
+}
+
+.ayudaLorem {
+  color: whitesmoke;
+}
+
+.faqMil {
+
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: start;
+}
 
 .table {
-  color: white; }
+  color: white;
+}
 
 footer {
-  background-color: black; }
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+}
 
 .strong {
-  color: red; }
+  color: red;
+}
+
+.historia {
+  font-size: medium;
+  font-style: inherit;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
