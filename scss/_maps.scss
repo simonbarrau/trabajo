@@ -8,7 +8,7 @@ $mapRedes:( instagram:red, twitter:blue);
     }
 }
 
-$estilo: (fuenteUno:20px, color: rgb(7, 185, 255));
+$estilo: (fuenteUno:20px, color: black);
 
 .redesUno {
     font-size: map-get($estilo,fuenteUno );
