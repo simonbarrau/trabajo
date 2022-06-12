@@ -111,12 +111,32 @@ h3 {
   color: red; }
 
 .parrafoUno {
-  border: 2px blue dashed;
+  border: 2px red solid;
   margin: 5px;
   padding: 5px; }
 
+  .contactoUno {
+    color: red;
+  }
+  .iconoTarjeta {
+    position: relative;
+    left: 530px;
+    bottom: 160px;
+    height: 150px;
+    width: 150px;
+  }
+  
+
+  .creditoUno {
+    position: relative;
+    left: 600px;
+    bottom: 210px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
 .formularioUno {
-  border: 3px blue dotted;
+  border: 3px red solid;
   margin: 5px;
   padding: 5px; }
 
@@ -144,6 +164,22 @@ label {
   width: 100px;
   height: 100px; }
 
+  .iconoTarjeta {
+    position: relative;
+    left: 530px;
+    bottom: 160px;
+    height: 150px;
+    width: 150px;
+  }
+  
+
+  .creditoUno {
+    position: relative;
+    left: 600px;
+    bottom: 210px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
 .divUno {
   color: red;
   text-transform: uppercase;
@@ -159,6 +195,9 @@ label {
   color: orange; }
 
 @media screen and (max-width: 765px) {
+  .contactEnvio {
+    display: none;
+  }
   .elMenuu {
     display: none; }
   .redesUno {
@@ -217,8 +256,7 @@ footer {
   }
 
   .ayudaLorem {
-    color: whitesmoke;
-    font-family: oblique;
+    color: white;
   }
 
   .recomendado {
@@ -231,3 +269,8 @@ footer {
   font-family: 'Courier New', Courier, monospace;
 
 }
+
+.faqUno {
+  font-family: 'Times New Roman', Times, serif;
+}
+
