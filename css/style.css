@@ -106,14 +106,18 @@ h3 {
   color: red; }
 
 .parrafoUno {
-  border: 2px blue dashed;
+  border: 2px red solid;
   margin: 5px;
   padding: 5px; }
 
 .formularioUno {
-  border: 3px blue dotted;
+  border: 3px red solid;
   margin: 5px;
   padding: 5px; }
+
+  .contactoUno {
+    color: red;
+  }
 
 input {
   display: flex;
@@ -139,6 +143,26 @@ label {
   width: 100px;
   height: 100px; }
 
+  .moverLetras {
+    position: relative;
+    left: 10px;
+    bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .iconoTarjeta {
+    position: relative;
+    left: 500px;
+    bottom: 175px;
+    height: 170px;
+    width: 170px;
+  }
+  .creditoUno {
+    position: relative;
+    left: 630px;
+    bottom: 280px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
 .divUno {
   color: red;
   text-transform: uppercase;
@@ -154,6 +178,9 @@ label {
   color: orange; }
 
 @media screen and (max-width: 765px) {
+  .ambulanciaUno {
+    display: none;
+  }
   .elMenuu {
     display: none; }
   .redesUno {
@@ -162,8 +189,8 @@ label {
     display: none; }
   .buzosQuince {
     position: relative;
-    right: 135px;
-    width: 100px;
+    right: 200px;
+    width: 160px;
     display: grid;
     grid-template-columns: 100%;
     max-width: 90%;
@@ -176,7 +203,7 @@ label {
     display: grid;
     grid-template-columns: 100%;
     position: relative;
-    right: 135px; }
+    right: 200px; }
   .remeraUno {
     display: none; }
   .remeraMovete {
@@ -185,15 +212,11 @@ label {
     display: grid;
     grid-template-columns: 100%;
     position: relative;
-    right: 135px; }
+    right: 200px; }
   .contactoEnvio {
     position: relative;
-    right: 135px; }
-  .ambulanciaUno {
-    display: grid;
-    grid-template-columns: 100px;
-    position: relative;
-    right: 135px; } }
+    right: 200px; }
+  }
 
 .table {
   color: white; }
@@ -203,3 +226,17 @@ footer {
 
 .strong {
   color: red; }
+
+  .faqMil {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .respuesta {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .ayudaLorem {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
