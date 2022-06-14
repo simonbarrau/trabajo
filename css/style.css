@@ -82,6 +82,8 @@ h3 {
   text-align: start;
   text-transform: uppercase; }
 
+  
+
 .buzosQuince {
   display: grid;
   grid-template-columns: 50% 50%; }
@@ -96,17 +98,15 @@ h3 {
 .buzoVioleta {
   width: 250px; }
 
-.preguntaUno {
-  color: red;
-  text-transform: uppercase; }
-
 .cuestionDos {
   text-align: center; }
 
 .mapaUno {
   display: flex;
   justify-content: flex-start;
-  color: red; }
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
 
 .parrafoUno {
   border: 2px red solid;
@@ -118,9 +118,7 @@ h3 {
   margin: 5px;
   padding: 5px; }
 
-  .contactoUno {
-    color: red;
-  }
+  
 
 input {
   display: flex;
@@ -250,4 +248,17 @@ footer {
     width: 400px;
   }
 
+  .menuPrincipal {
+    color: white;
+    font-style: italic;
+  }
+
+  .wearIt {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .textoWear {
+    font: 1rem sans-serif;
+    font-style: italic;
+  }
   
