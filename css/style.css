@@ -40,6 +40,9 @@ header {
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%; }
 
+  .footerUno {
+    display: flex;
+justify-content: center;  }
 a {
   color: white;
   text-decoration: none; }
@@ -240,3 +243,11 @@ footer {
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+
+  .carousel-item {
+    
+    height: 400px;
+    width: 400px;
+  }
+
+  
