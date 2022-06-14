@@ -261,4 +261,7 @@ footer {
     font: 1rem sans-serif;
     font-style: italic;
   }
-  
+  .alvinAco {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
