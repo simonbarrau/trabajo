@@ -217,40 +217,7 @@ label {
   color: orange;
 }
 
-@media screen and (min-width: 765px) {
-  .mapaAlvin {
-    width: 100%;
-  }
-  .ambulanciaUno {
-    display: none;
-  }
- .elMenuu {
-    display: none;
-  }
-  .redesUno {
-    display: none;
-  }
-  h4 {
-    display: none;
-  }
-  .buzosQuince {
-    display: grid;
-    grid-template-columns: 100%;
-  }
-  .buzosMuevanse {
-    display: grid;
-    grid-template-columns: 100%;
-  }
-  .remerasMuevanse {
-    display: grid;
-    grid-template-columns: 100%;
-  }
-  .contactoEnvio {
-    position: relative;
-    right: 200px;
-  }
 
-}
 
 @media screen and (max-width: 765px) {
   
