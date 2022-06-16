@@ -132,10 +132,9 @@ h3 {
 }
 
 .mapaUno {
-  display: flex;
-  justify-content: flex-start;
   color: red;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .parrafoUno {
@@ -220,7 +219,9 @@ label {
   color: orange;
 }
 
-
+.mapaAlvin{
+  width: 100%;
+}
 
 @media screen and (max-width: 765px) {
   
