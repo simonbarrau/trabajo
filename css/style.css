@@ -1,12 +1,12 @@
 .instagram {
   color: red;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Times New Roman', Times, serif
   
 }
 
 .twitter {
   color: blue;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Times New Roman', Times, serif
 }
 
 .redesUno {
@@ -320,10 +320,17 @@ footer {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.carousel-item {
+.carousel-item  {
+ 
+  height: 300px;
 
-  height: 400px;
-  width: 400px;
+  
+  
+}
+.fotografia {
+  height:100%;
+  width: 75%;
+  object-fit: contain;
 }
 
 .menuPrincipal {
@@ -340,4 +347,6 @@ footer {
   font: 1rem sans-serif;
   font-style: italic;
 }
+
+
 
