@@ -323,9 +323,13 @@ footer {
 .carousel-item  {
  
   height: 300px;
-
-  
-  
+ 
+}
+.bottonWhatsapp img {
+  width: 40px;
+  position: fixed;
+  bottom: 10px;
+  left: 1295px;
 }
 .fotografia {
   height:100%;
