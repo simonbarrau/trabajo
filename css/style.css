@@ -224,7 +224,10 @@ label {
 }
 
 @media screen and (max-width: 765px) {
-  
+
+  .carousel{
+  display: none;
+  }
   .enviosTres {
     display: none;
   }
@@ -241,10 +244,6 @@ label {
   }
 
   .redesUno {
-    display: none;
-  }
-
-  h4 {
     display: none;
   }
 
