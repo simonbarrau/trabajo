@@ -1,12 +1,11 @@
 .instagram {
   color: red;
-  font-family:'Times New Roman', Times, serif
-  
+  font-family: 'Times New Roman', Times, serif
 }
 
 .twitter {
   color: blue;
-  font-family:'Times New Roman', Times, serif
+  font-family: 'Times New Roman', Times, serif
 }
 
 .redesUno {
@@ -147,9 +146,17 @@ h3 {
   border: 3px red solid;
   margin: 5px;
   padding: 5px;
+  display: grid;
+  
 }
-
-
+.formCuatro {
+  text-align: center;
+}
+.tamaño {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
 
 input {
   display: flex;
@@ -167,10 +174,7 @@ label {
   justify-content: center;
 }
 
-.contactEnvio {
-  background-color: black;
-  border: 5px red solid;
-}
+
 
 .ambulanciaUno {
   position: relative;
@@ -178,19 +182,20 @@ label {
   margin: 20px 20px;
   width: 100px;
   height: 100px;
+  top: 130px;
 }
 
 .moverLetras {
   position: relative;
   left: 10px;
-  bottom: 40px;
-  font-family: 'Courier New', Courier, monospace;
+  top: 89px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .iconoTarjeta {
   position: relative;
-  left: 500px;
-  bottom: 175px;
+  left: 475px;
+  bottom: 40px;
   height: 170px;
   width: 170px;
 }
@@ -198,10 +203,14 @@ label {
 .creditoUno {
   position: relative;
   left: 630px;
-  bottom: 280px;
-  font-family: 'Courier New', Courier, monospace;
+  bottom: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.contactEnvio {
+  background-color: black;
+  border: 3px black solid;
+}
 .divUno {
   color: red;
   text-transform: uppercase;
@@ -219,32 +228,18 @@ label {
   color: orange;
 }
 
-.mapaAlvin{
+.mapaAlvin {
   width: 100%;
 }
 
 @media screen and (max-width: 765px) {
 
-  .carousel{
-  display: none;
-  }
-  .enviosTres {
+  .carousel {
     display: none;
   }
+
   .mapaAlvin {
     width: 290px;
-  }
-
-  .ambulanciaUno {
-    display: none;
-  }
-
-  .elMenuu {
-    display: none;
-  }
-
-  .redesUno {
-    display: none;
   }
 
   .buzosQuince {
@@ -253,31 +248,26 @@ label {
     width: 160px;
     display: grid;
     grid-template-columns: 100%;
-    max-width: 90%;
-    justify-items: flex-start;
   }
 
-  .buzooDos {
-    display: none;
+  .remeraNaranja {
+    position: relative;
+    right: 200px;
+height: 350px;
+width: 269px;
   }
-
-  .buzooTres {
-    display: none;
-  }
+.remeraAzul{
+  position: relative;
+  right: 200px;
+height: 350px;
+width: 269px;
+}
 
   .buzosMuevanse {
     display: grid;
     grid-template-columns: 100%;
     position: relative;
     right: 200px;
-  }
-
-  .remeraUno {
-    display: none;
-  }
-
-  .remeraMovete {
-    display: none;
   }
 
   .remerasMuevanse {
@@ -287,10 +277,13 @@ label {
     right: 200px;
   }
 
-  .contactoEnvio {
-    position: relative;
-    right: 200px;
+  .divUno {
+  display: none;
   }
+  .contactEnvio{
+    display: none;
+  }
+  
 }
 
 .table {
@@ -320,19 +313,21 @@ footer {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.carousel-item  {
- 
+.carousel-item {
+
   height: 300px;
- 
+
 }
+
 .bottonWhatsapp img {
   width: 40px;
   position: fixed;
   bottom: 10px;
   left: 1295px;
 }
+
 .fotografia {
-  height:100%;
+  height: 100%;
   width: 75%;
   object-fit: contain;
 }
@@ -351,6 +346,3 @@ footer {
   font: 1rem sans-serif;
   font-style: italic;
 }
-
-
-
