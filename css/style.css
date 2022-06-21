@@ -356,7 +356,6 @@ footer {
   border: 2px black solid;
   margin: 4px;
   padding: 5px;
-  background-color: black;
   width: 200px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -366,7 +365,11 @@ footer {
   background: linear-gradient(to right ,red,green);
   color: black; 
 }
-
+.texting:hover{
+    width: 210px;
+    height: 38px;
+    background: linear-gradient(to right ,green,red);
+  }
 .textingDos {
   margin: 10px;
   font-style: italic;
@@ -377,4 +380,26 @@ footer {
   background-color: black;
   border:2px red solid;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boxx {
+  border: 5px red solid;
+  margin: 4px;
+  padding: 5px;
+  background-color: black;
+  width: 400px;
+  height: 525px;
+  position: relative;
+  left: 200px;
+
+}
+.image {
+  position: relative;
+  left: 100px;
+  width: 200px;
+}
+.boxes {
+  display:grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+  right: 80px;
 }
