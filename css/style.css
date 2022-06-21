@@ -224,15 +224,12 @@ label {
   grid-template-columns: 50% 50%;
 }
 
-.remeraAzul {
-  color: orange;
-}
-
 .mapaAlvin {
   width: 100%;
 }
 
-@media screen and (max-width: 765px) {
+  
+@media screen and (max-width: 1000px) {
   
 
   .carousel {
@@ -240,7 +237,7 @@ label {
   }
 
   .mapaAlvin {
-    width: 290px;
+    width: 100%;
   }
 
   .buzosQuince {
@@ -252,23 +249,12 @@ label {
   }
 
   .remeraNaranja {
-    position: relative;
-    right: 200px;
 height: 350px;
 width: 269px;
   }
-.remeraAzul{
-  position: relative;
-  right: 200px;
-height: 350px;
-width: 269px;
-}
 
-  .buzosMuevanse {
-    display: grid;
-    grid-template-columns: 100%;
-    position: relative;
-    right: 200px;
+  .buzosQuince {
+    text-align: center;
   }
 
   .remerasMuevanse {
