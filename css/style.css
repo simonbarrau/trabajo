@@ -233,6 +233,7 @@ label {
 }
 
 @media screen and (max-width: 765px) {
+  
 
   .carousel {
     display: none;
@@ -275,6 +276,9 @@ width: 269px;
     grid-template-columns: 100%;
     position: relative;
     right: 200px;
+  }
+  .table {
+    display: none;
   }
 
   .divUno {
