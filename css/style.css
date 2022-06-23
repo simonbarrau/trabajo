@@ -46,7 +46,37 @@ header {
   background-color: black;
   border: 5px red solid;
 }
+.navaa{
+  background-color: black;
+  border:2px dashed red;
+}
+.nava {
+  background-color: black;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+}
 
+.mail{display: flex;
+  justify-content: center;
+}
+.ache{
+  display: flex;
+  justify-content: center;
+}
+
+.navega {
+  font-size: 35px;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: grid;
+justify-content: center;
+}
+.ull {
+  color: red;
+  font-size: 15px;
+  display: grid;
+justify-content: center;
+}
 .buzoMuevansee {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -145,17 +175,14 @@ h3 {
 .formularioUno {
   border: 3px red solid;
   margin: 5px;
-  padding: 5px;
-  display: grid;
-  
+  padding: 10px;
+  display: grid;  
 }
 .formCuatro {
   text-align: center;
 }
 .tamaño {
   width: 200px;
-  display: flex;
-  justify-content: center;
 }
 
 input {
