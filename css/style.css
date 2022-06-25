@@ -124,20 +124,6 @@ h3 {
   justify-content: center;
 }
 
-.letraNaranja {
-  color: orange;
-  text-align: end;
-  text-transform: uppercase;
-}
-
-.letraBuzo {
-  color: violet;
-  text-align: start;
-  text-transform: uppercase;
-}
-
-
-
 .buzosQuince {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -146,14 +132,6 @@ h3 {
 .buzosMuevanse {
   display: grid;
   grid-template-columns: 50% 50%;
-}
-
-.buzoNaranja {
-  width: 250px;
-}
-
-.buzoVioleta {
-  width: 250px;
 }
 
 .cuestionDos {
