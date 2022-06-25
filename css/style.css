@@ -278,7 +278,16 @@ width: 269px;
   .contactEnvio{
     display: none;
   }
-  
+  .navaa {
+    display: none;
+  }
+
+  .boximg{
+    display: none;
+  }
+  .boxx{
+    display: none;
+  }
 }
 
 .table {
