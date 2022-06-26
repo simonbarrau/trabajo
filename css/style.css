@@ -46,20 +46,24 @@ header {
   background-color: black;
   border: 5px red solid;
 }
-.navaa{
+
+.navaa {
   background-color: black;
-  border:2px dashed red;
+  border: 2px dashed red;
 }
+
 .nava {
   background-color: black;
   display: grid;
-  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.mail{display: flex;
+.mail {
+  display: flex;
   justify-content: center;
 }
-.ache{
+
+.ache {
   display: flex;
   justify-content: center;
 }
@@ -68,15 +72,17 @@ header {
   font-size: 35px;
   color: whitesmoke;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-display: grid;
-justify-content: center;
+  display: grid;
+  justify-content: center;
 }
+
 .ull {
   color: red;
   font-size: 15px;
   display: grid;
-justify-content: center;
+  justify-content: center;
 }
+
 .buzoMuevansee {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -154,11 +160,13 @@ h3 {
   border: 3px red solid;
   margin: 5px;
   padding: 10px;
-  display: grid;  
+  display: grid;
 }
+
 .formCuatro {
   text-align: center;
 }
+
 .tamaño {
   width: 200px;
 }
@@ -216,6 +224,7 @@ label {
   background-color: black;
   border: 3px black solid;
 }
+
 .divUno {
   color: red;
   text-transform: uppercase;
@@ -233,9 +242,9 @@ label {
   width: 100%;
 }
 
-  
+
 @media screen and (max-width: 1000px) {
-  
+
 
   .carousel {
     display: none;
@@ -254,8 +263,8 @@ label {
   }
 
   .remeraNaranja {
-height: 350px;
-width: 269px;
+    height: 350px;
+    width: 269px;
   }
 
   .buzosQuince {
@@ -268,24 +277,28 @@ width: 269px;
     position: relative;
     right: 200px;
   }
+
   .table {
     display: none;
   }
 
   .divUno {
-  display: none;
-  }
-  .contactEnvio{
     display: none;
   }
+
+  .contactEnvio {
+    display: none;
+  }
+
   .navaa {
     display: none;
   }
 
-  .boximg{
+  .boximg {
     display: none;
   }
-  .boxx{
+
+  .boxx {
     display: none;
   }
 }
@@ -350,6 +363,7 @@ footer {
   font: 1rem sans-serif;
   font-style: italic;
 }
+
 .boximg {
   border: 5px red solid;
   margin: 4px;
@@ -359,13 +373,15 @@ footer {
   height: 525px;
   position: relative;
   left: 200px;
-  
+
 }
+
 .imgMoove {
   position: relative;
   left: 100px;
   width: 200px;
 }
+
 .texting {
   border: 2px black solid;
   margin: 4px;
@@ -376,14 +392,16 @@ footer {
   position: relative;
   left: 100px;
   top: 50px;
-  background: linear-gradient(to right ,red,green);
-  color: black; 
+  background: linear-gradient(to right, red, green);
+  color: black;
 }
-.texting:hover{
-    width: 210px;
-    height: 38px;
-    background: linear-gradient(to right ,green,red);
-  }
+
+.texting:hover {
+  width: 210px;
+  height: 38px;
+  background: linear-gradient(to right, green, red);
+}
+
 .textingDos {
   margin: 10px;
   font-style: italic;
@@ -392,9 +410,10 @@ footer {
   top: 60px;
   text-align: center;
   background-color: black;
-  border:2px red solid;
+  border: 2px red solid;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .boxx {
   border: 5px red solid;
   margin: 4px;
@@ -406,13 +425,15 @@ footer {
   left: 200px;
 
 }
+
 .image {
   position: relative;
   left: 100px;
   width: 200px;
 }
+
 .boxes {
-  display:grid;
+  display: grid;
   grid-template-columns: 50% 50%;
   position: relative;
   right: 80px;
