@@ -1,0 +1,1 @@
+let choose= parseInt(prompt("Eliga su producto"))
