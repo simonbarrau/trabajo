@@ -1,4 +1,4 @@
-
+alert("Wear It")
 
 
 class Ropa{
@@ -46,11 +46,13 @@ buzo6.calcDescuento();
 
 
 
-
 for(const item of prendas){
 if(item.nombre === "Trap Watermelon"){
     item.vender()
 } 
+if(item.nombre === "Orange 666"){
+    item.vender()
 }
+}
+prendas.forEach(elemento=>console.log(elemento));
 
-console.log(prendas);
